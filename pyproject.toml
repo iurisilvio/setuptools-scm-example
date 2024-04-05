@@ -1,0 +1,12 @@
+[project]
+name = "iuri-python-release"
+dynamic = ["version"]
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+
+[build-system]
+requires = [
+    "setuptools",
+    "setuptools-scm[toml]",
+]
