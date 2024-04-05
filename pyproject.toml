@@ -1,0 +1,11 @@
+[project]
+name = "iuri-python-release"
+dynamic = ["version"]
+
+[tool.setuptools_scm]
+
+[build-system]
+requires = [
+    "setuptools",
+    "setuptools-scm",
+]
