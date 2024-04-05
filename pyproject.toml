@@ -4,6 +4,7 @@ dynamic = ["version"]
 readme = "README.md"
 
 [tool.setuptools_scm]
+local_scheme = "no-local-version"
 
 [build-system]
 requires = [
